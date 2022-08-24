@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body,main{
+	height: 100%;
+}
+ul{
+	list-style: none;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+	font-size: 20px;
+
+}
+nav{
+	display: block;
+	width: 100%;
+	margin: 0 auto 30px;
+}
+
+.first{
+	height: 100%;
+	background-image: url(1.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.first p{
+	color: #fff;
+}
+.tour ul{
+	
+	display: flex;
+	justify-content: center;
+    
+	background:#241788;
+	padding-left: 0;
+	width: 100%;
+	text-align: center;
+	
+	font-size: 20px;
+}
+.tour a{
+	
+}
+.text-container{
+	width: 40%;
+	margin-left: 15%;
+	margin-top: 15%;
+
+}
+.first-line{
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	opacity: 0.5;
+	letter-spacing: 1px;
+	line-height: 1;
+}
+.second-line{
+	text-transform: uppercase;
+	font-size: 60px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	line-height: 1;
+}
+.third-line{
+	font-size: 20px;
+}
+.second{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+.gallary_container{
+	width: 60%;
+	max-width: 1000px;
+}
+.img_container{
+	width: 100%;
+	display: flex;
+-ms-align-items: flex-start;
+	align-items: flex-start;
+}
+img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+img:hover{
+	transform: scale(1.05);
+}
+.img1{
+	width: 55%;
+}
+.wrapper{
+	margin-left: 20px;
+}
+.img2{
+	margin-bottom: 20px;
+}
+.gallary_text{
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.gallary-header{
+	font-size: 48px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 1;
+}
+.gallary-p{
+	font-size: 18px;
+}
+.last-container{
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	flex-direction: column;
+	height: 300px;
+	padding: 0 25%;
+	background-image: url(5.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+}
+.last-header{
+	color: #fff;
+	font-size: 20px;
+	padding: 10px 20px;
+	border: 1px solid #fff;
+	margin-bottom: 40px;
+
+}
+.last-text{
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
